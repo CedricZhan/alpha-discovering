@@ -1,0 +1,2 @@
+# The official ibapi 10.49.2 source is installed with TWS API and requires:
+protobuf==5.29.5

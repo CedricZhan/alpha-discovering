@@ -1,0 +1,58 @@
+{
+  "schema_version": 2,
+  "name": "AI Semiconductor Supply Chain Watchlist",
+  "updated": "2026-08-08",
+  "categories": [
+    {
+      "id": "upstream",
+      "name": "Upstream: EDA, Chip IP, Equipment, and Materials",
+      "description": "Companies providing design software, intellectual property, lithography, deposition, etching, inspection, testing, and critical materials.",
+      "companies": [
+        { "ticker": "ASML", "company": "ASML Holding", "role": "EUV and DUV lithography systems", "existing": true },
+        { "ticker": "AMAT", "company": "Applied Materials", "role": "Deposition, etching, and wafer fabrication equipment", "existing": true },
+        { "ticker": "LRCX", "company": "Lam Research", "role": "Etching and thin-film deposition equipment", "existing": true },
+        { "ticker": "KLAC", "company": "KLA", "role": "Wafer inspection and process-control systems", "existing": false },
+        { "ticker": "TER", "company": "Teradyne", "role": "Automated semiconductor testing equipment", "existing": false },
+        { "ticker": "SNPS", "company": "Synopsys", "role": "EDA software and semiconductor design IP", "existing": false },
+        { "ticker": "CDNS", "company": "Cadence Design Systems", "role": "EDA software and system design tools", "existing": false },
+        { "ticker": "ARM", "company": "Arm Holdings", "role": "CPU architecture and processor IP licensing", "existing": false },
+        { "ticker": "ENTG", "company": "Entegris", "role": "Semiconductor materials and contamination control", "existing": false },
+        { "ticker": "MKSI", "company": "MKS Instruments", "role": "Vacuum, RF, and process-control equipment", "existing": false }
+      ]
+    },
+    {
+      "id": "midstream",
+      "name": "Midstream: Chip Design, Wafer Manufacturing, and Memory",
+      "description": "Companies designing and producing AI processors, custom silicon, communications chips, foundry services, HBM, DRAM, and flash memory.",
+      "companies": [
+        { "ticker": "NVDA", "company": "NVIDIA", "role": "AI GPUs and accelerated computing platforms", "existing": true },
+        { "ticker": "TSM", "company": "Taiwan Semiconductor Manufacturing", "role": "Advanced-node semiconductor foundry services", "existing": true },
+        { "ticker": "AVGO", "company": "Broadcom", "role": "Custom AI accelerators and high-speed networking chips", "existing": true },
+        { "ticker": "AMD", "company": "Advanced Micro Devices", "role": "CPUs, GPUs, and AI accelerators", "existing": true },
+        { "ticker": "SKHY", "company": "SK hynix", "role": "HBM, DRAM, and NAND memory", "existing": true },
+        { "ticker": "MU", "company": "Micron Technology", "role": "HBM, DRAM, and NAND memory", "existing": true },
+        { "ticker": "SNDK", "company": "SanDisk", "role": "NAND flash memory and data storage products", "existing": true },
+        { "ticker": "INTC", "company": "Intel", "role": "CPUs, AI chips, and semiconductor manufacturing", "existing": true },
+        { "ticker": "QCOM", "company": "Qualcomm", "role": "Mobile, automotive, and edge AI chips", "existing": false },
+        { "ticker": "MRVL", "company": "Marvell Technology", "role": "Data-center interconnect and custom silicon", "existing": false }
+      ]
+    },
+    {
+      "id": "downstream",
+      "name": "Downstream: AI Servers, Networking, Data Centers, and Cloud Platforms",
+      "description": "Companies deploying AI chips in servers, networking systems, data centers, and cloud platforms to deliver AI computing capacity.",
+      "companies": [
+        { "ticker": "ANET", "company": "Arista Networks", "role": "High-speed Ethernet switches for AI data centers", "existing": false },
+        { "ticker": "VRT", "company": "Vertiv Holdings", "role": "Data-center power, cooling, and infrastructure", "existing": false },
+        { "ticker": "DELL", "company": "Dell Technologies", "role": "Enterprise AI servers and storage systems", "existing": false },
+        { "ticker": "SMCI", "company": "Super Micro Computer", "role": "High-density AI servers and rack-scale systems", "existing": false },
+        { "ticker": "HPE", "company": "Hewlett Packard Enterprise", "role": "AI servers, networking, and enterprise infrastructure", "existing": false },
+        { "ticker": "MSFT", "company": "Microsoft", "role": "Azure cloud computing and AI infrastructure", "existing": false },
+        { "ticker": "AMZN", "company": "Amazon", "role": "AWS cloud computing and custom AI chips", "existing": false },
+        { "ticker": "GOOGL", "company": "Alphabet", "role": "Google Cloud and custom TPU accelerators", "existing": false },
+        { "ticker": "META", "company": "Meta Platforms", "role": "Large-scale AI clusters and custom inference chips", "existing": false },
+        { "ticker": "ORCL", "company": "Oracle", "role": "OCI cloud platform and GPU clusters", "existing": false }
+      ]
+    }
+  ]
+}

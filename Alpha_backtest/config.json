@@ -1,0 +1,10 @@
+{
+  "data_file": "input/prices.csv",
+  "output_dir": "output",
+  "initial_cash": 1000000,
+  "top_fraction": 0.2,
+  "cost_bps": 10,
+  "start_date": null,
+  "end_date": null,
+  "annualization": 252
+}
